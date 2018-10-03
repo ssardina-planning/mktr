@@ -104,7 +104,7 @@ Any arguments supplied on the command line will override those supplied in `mktr
 
 ## Supported PDDL fragments
 
-All features of basic `STRIPS` are supported, except for constants appearing in preconditions or effects of operators. MKTR also supports `typing` but does not support any `ADL` features, or `equality`. 
+All features of basic `STRIPS` are supported, except for constants appearing in preconditions or effects of operators. MKTR also supports some aspects of `ADL`, namely `equality`, `typing` and `negative preconditions`.
 
 Some of the domains and problems in the included `pddl` directory (i.e., `child-snack`, `parking`, `pegsol`, `scanalyzer` and `sokoban`) have been edited in order to meet these requirements.
 
