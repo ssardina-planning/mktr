@@ -1,0 +1,47 @@
+# Command line arguments can also be set in this file.
+
+# The location of the domain definition file.
+# domain=pddl/child-snack/domain.pddl
+
+# The location of the problem definition file.
+# problem=pddl/child-snack/p01.pddl
+
+# The location of the plan file.
+# plan=pddl/childs-snack/p01.pddl.fd
+
+# The encoder used to convert the partial plan into a CSP. Options 
+# are ModalTruthEncoder, ModalTruthRestrictedOrder, 
+# or ModalTruthRestrictedBindings
+# encoder=ModalTruthEncoder
+
+# The relaxation policy. Options are RelaxProducers, 
+# MinimiseThreats or Random
+# policy=RelaxProducers
+
+# The maximum treewidth.
+# treewidth=2
+
+# The maximum time (in minutes) to spend running MKTR.
+# mktr-time=1
+
+# The maximum time (in minutes) to spend counting/generating the 
+# instantiations of the final partial plan.
+# count-time=1
+
+# The path to the csp output file. The final CSP will be 
+# printed here
+# csp-out=path/to/csp.mzn
+
+# The path to the plans output file. All instantiations of 
+# the final partial plan will be printed here.
+# plans-out=path/to/plans.pddl
+
+# Print no more than this many instantiations of the final
+# partial plan.
+# print-max=1000
+
+# Verbose output.
+# verbose=true
+
+# Validate new plans as they are found (requires verbose mode).
+# validate=false
