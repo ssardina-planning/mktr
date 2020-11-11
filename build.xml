@@ -32,7 +32,7 @@
 	<property name="target.dir"  		value="mktr-${version}"/>
 	<property name="target.lib.dir"  	value="${target.dir}/lib"/>
 	
-	<property name="jar.name"  			value="pplib-${version}.jar"/>
+	<property name="jar.name"  			value="mktr-${version}.jar"/>
 	
 	<property name="args4j.lib"			value="lib/args4j-2.33.jar" />
 	<property name="pddl4j.lib"			value="lib/pddl4j-3.5.0.jar" />
